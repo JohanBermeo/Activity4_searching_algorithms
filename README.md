@@ -10,7 +10,7 @@ La rama principal (`main` o `master`) contiene únicamente esta documentación. 
 
 | Rama (Branch) | Algoritmo |
 | :--- | :--- |
-| `quicksort` | **Quicksort** |
-| `shell` | **Shellsort** |
-| `burbuja` | **Bubble Sort** |
-| `radix` | **Radix Sort** |
+| `algorithm/quicksort` | **Quicksort** |
+| `algorithm/shell` | **Shellsort** |
+| `algorithm/burbuja` | **Bubble Sort** |
+| `algorithm/radix` | **Radix Sort** |
