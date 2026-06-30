@@ -17,5 +17,5 @@ En la siguiente tabla encontrarás el acceso directo a los recursos de análisis
 | Recurso | Descripción | Enlace de Descarga / Acceso |
 | :--- | :--- | :--- |
 | **Documento Técnico (PDF)** | Análisis detallado, demostración de complejidad en el peor, mejor caso y caso promedio, respuesta a las preguntas. | [Descargar Guía Teórica (PDF)](https://github.com/tu-usuario/tu-repositorio/docs/quicksort_analysis.pdf) |
-| **Tabla de Tiempos (Excel)** | Hoja de cálculo con gráficas de rendimiento empírico, comparativa de tiempos de ejecución según el tamaño del arreglo ($N$). | [Descargar Tablero de Métricas (XLSX)](https://github.com/JohanBermeo/Activity4_searching_algorithms/sheets/Radix.xlsx) |
+| **Tabla de Tiempos (Excel)** | Hoja de cálculo con gráficas de rendimiento empírico, comparativa de tiempos de ejecución según el tamaño del arreglo ($N$). | [Descargar Tablero de Métricas (XLSX)](https://github.com/JohanBermeo/Activity4_searching_algorithms/sheets/RadixMetricas.xlsx) |
 
