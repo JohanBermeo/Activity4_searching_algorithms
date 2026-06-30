@@ -6,7 +6,7 @@ public class View {
 	private final Scanner sc = new Scanner(System.in);
 	
 	public void mostrarMenu() {
-		String menu = "Bienvenido, estos son los algoritmos de ordenamiento disponbiles:\n"+"1. Bubble Sort.\n"+"2. Shell Sort\n"+"3. Radix Sort\n"+"4.Quick Sort";
+		String menu = "Bienvenido, estos son los algoritmos de ordenamiento disponbiles:\n"+"1. Bubble Sort.\n"+"2. Shell Sort\n"+"3. Radix Sort\n"+"4. Quick Sort\n"+"5. Salir";
 		System.out.println(menu);
 		System.out.print("Seleccione el algoritmo de ordenamiento que desea utilizar: ");
 	}
