@@ -1,16 +1,23 @@
-# Algoritmos de Ordenamiento
+# Quicksort 
 
-Este repositorio contiene la implementación de cuatro de los algoritmos de ordenamiento más fundamentales en las ciencias de la computación. Para mantener un entorno de desarrollo limpio y especializado, **cada algoritmo se encuentra alojado en su propia rama (branch) dedicada**.
+Este directorio contiene la implementación, pruebas y análisis de rendimiento del algoritmo **Quicksort**.
 
 ---
 
-## Estructura del Repositorio
+## Descripción del Algoritmo
 
-La rama principal (`main` o `master`) contiene únicamente esta documentación. Para explorar el código fuente, la implementación y las pruebas de un algoritmo específico, debes cambiarte a la rama correspondiente:
+**Quicksort** es un algoritmo basado en la técnica de *Divide y Vencerás*. Funciona seleccionando un elemento de la lista como **pivote** y particionando los demás elementos en dos subarreglos: aquellos que son menores que el pivote y aquellos que son mayores. Este proceso se aplica de forma recursiva a los subarreglos hasta que toda la lista queda completamente ordenada. 
 
-| Rama (Branch) | Algoritmo |
-| :--- | :--- |
-| `quicksort` | **Quicksort** |
-| `shell` | **Shellsort** |
-| `burbuja` | **Bubble Sort** |
-| `radix` | **Radix Sort** |
+Es uno de los algoritmos de ordenamiento más rápidos y utilizados en la práctica debido a su bajo uso de memoria adicional (es un algoritmo *in-place*) y su excelente rendimiento promedio.
+
+---
+
+## Recursos y Documentación
+
+En la siguiente tabla encontrarás el acceso directo a los recursos de análisis teórico y empírico diseñados para este algoritmo:
+
+| Recurso | Descripción | Enlace de Descarga / Acceso |
+| :--- | :--- | :--- |
+| **Documento Técnico (PDF)** | Análisis matemático detallado, demostración de complejidad en el peor/mejor caso y pseudocódigo estructurado. | [Descargar Guía Teórica (PDF)](https://github.com/tu-usuario/tu-repositorio/docs/quicksort_analysis.pdf) |
+| **Tabla de Tiempos (Excel)** | Hoja de cálculo con gráficas de rendimiento empírico, comparativa de tiempos de ejecución según el tamaño del arreglo ($N$) y elección del pivote. | [Descargar Tablero de Métricas (XLSX)](https://github.com/tu-usuario/tu-repositorio/sheets/quicksort_metrics.xlsx) |
+
