@@ -25,7 +25,14 @@ public class QuickSort implements MetodoOrdenamiento {
 
     // Método que acomoda los elementos menores a la izquierda y mayores a la derecha
     private int particion(int[] array, int inicio, int fin) {
-        // Elegimos el último elemento como pivote
+        // Elegimos el elemento central para evitar el peor caso en arreglos ordenados/invertidos
+        int medio = inicio + (fin - inicio) / 2;
+        
+        // Intercambiamos el elemento central con el último para usar la lógica estándar
+        int tempPivote = array[medio];
+        array[medio] = array[fin];
+        array[fin] = tempPivote;
+
         int pivote = array[fin];
         
         // Índice del elemento más pequeño
