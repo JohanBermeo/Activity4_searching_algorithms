@@ -20,7 +20,7 @@ public class View {
 	public void mostrarCasos() {
 		String menu = "Los casos a escoger son:\n"+"1. Mejor caso (ordenados)\n"+"2. Peor caso (invertido)\n"+"3. Caso promedio (aleatorio)\n";
 		System.out.println(menu);
-		System.out.print("Seleccione el tamaño de arreglo que desea utilizar: ");
+		System.out.print("Seleccione el caso que desea utilizar: ");
 	}
 	
 	public int leer() {
@@ -30,7 +30,7 @@ public class View {
 	public void mostrarResultados(int n, long tiempo) {
 		System.out.println("Resultados de la ejecución:");
 		System.out.println("Tamaño del arreglo (N): " + n);
-		System.out.println("Tiempo de ejecución: " + tiempo + "ms");
+		System.out.println("Tiempo de ejecución: " + tiempo + "ns");
 	}
 	
 }

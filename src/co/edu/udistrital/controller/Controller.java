@@ -113,7 +113,7 @@ public class Controller {
             algoritmo.ordenar(arreglo);
             long endTime = System.nanoTime();
             
-            long tiempo = (endTime-startTime)/1000000;
+            long tiempo = (endTime-startTime);
             
             view.mostrarResultados(n, tiempo);
         }
